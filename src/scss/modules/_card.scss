@@ -1,0 +1,78 @@
+.card-1 {
+  background-color: #fff;
+  color: #222;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  position: relative;
+  background-image: url("../img/overlay.png");
+}
+
+.card-cluster {
+  background-color: #fff;
+  max-height: 200px;
+  max-width: 350px;
+  padding: 10px;
+  color: white;
+  color: #222;
+}
+
+// .card-highlight {
+//   background-color: #fff;
+//   height: 215px;
+//   //   max-width: 540px;
+//   color: white;
+//   color: #222;
+//   position: relative;
+//   z-index: 1;
+// }
+
+// .card-highlight h2 {
+//   font-size: 16px;
+// }
+
+.card-headline {
+  width: 1110px;
+  height: 555px;
+  flex-shrink: 0;
+}
+
+.card-img {
+  //   position: absolute;
+  //   top: 0;
+  //   right: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-international {
+  //   background-color: #fff;
+  display: inline-block;
+  padding: 0.25em 0;
+  background: #white;
+  color: #ffffff;
+  padding: 10px;
+
+  font-size: 16px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  color: #f40f97;
+}
+
+.article-title {
+  font-size: 16px;
+}
+
+.icon {
+  position: absolute;
+  bottom: 38px;
+  right: 38px;
+  width: 20px;
+}
+
+.noun {
+  color: #999999;
+  font-size: 12px;
+}
